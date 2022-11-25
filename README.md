@@ -1,6 +1,6 @@
-# basic64-js
-Commodore 64 Basic Emulator for in the Browser
+# B3Script
+Plugin for embedding in "Basic" as a scripting language to HTML
 
-Please check the Wiki (https://github.com/JoystickAndCursorKeys/basic64-js/wiki) for more information
+Please check the Wiki (https://github.com/JoystickAndCursorKeys/B3Script/wiki) for more information
 
-Or check out the webpage (https://joystickandcursorkeys.github.io/basic64-js) to run it in your browser.
+Or check out the webpage (https://joystickandcursorkeys.github.io/B3Script) to run it in your browser.
