@@ -1,8 +1,12 @@
 # B3Script
 
 B3Script stands for Basic Script for WWW (W3) 
+
 Or if you prefer Blazing Browser Basic :)
+
 Short: B3
+
+
 
 Plugin for embedding in "Basic" as a scripting language to HTML
 
