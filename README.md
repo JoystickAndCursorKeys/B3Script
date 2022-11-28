@@ -5,5 +5,5 @@ To ream more about this project, check the Wiki (https://github.com/JoystickAndC
 
 To download the library, go here (https://github.com/JoystickAndCursorKeys/B3Script/wiki/Download)
 
-To run the example directly here on GitHub, go here ()
+To run the example directly here on GitHub, go here (https://joystickandcursorkeys.github.io/B3Script/testit/)
 
