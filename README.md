@@ -20,5 +20,5 @@ To read more about this project, check [the Wiki](https://github.com/JoystickAnd
 
 To download click [Download the library](https://github.com/JoystickAndCursorKeys/B3Script/wiki/Download)
 
-Go her to [Run the example directly](https://joystickandcursorkeys.github.io/B3Script/testit/)
+Go here to [Run the example directly](https://joystickandcursorkeys.github.io/B3Script/testit/)
 
