@@ -1,6 +1,9 @@
 # B3Script
 
 Plugin for embedding "Basic" as a scripting language into HTML
+
+![](img/feature1.png)
+
 ---
 
 B3Script stands for Basic Script for WWW (W3) 
