@@ -22,3 +22,4 @@ To download click [Download the library](https://github.com/JoystickAndCursorKey
 
 Go here to [Run the example directly](https://joystickandcursorkeys.github.io/B3Script/testit/)
 
+To read [The source code](https://github.com/JoystickAndCursorKeys/B3ScriptSource), click me!
