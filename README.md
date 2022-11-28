@@ -1,6 +1,6 @@
 # B3Script
 
-Plugin for embedding in "Basic" as a scripting language to HTML
+Plugin for embedding "Basic" as a scripting language into HTML
 ---
 
 B3Script stands for Basic Script for WWW (W3) 
