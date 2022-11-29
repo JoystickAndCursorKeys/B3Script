@@ -16,7 +16,7 @@ Short: B3
 
 
 
-To read more about this project, check [the Wiki](https://github.com/JoystickAndCursorKeys/B3Script/wiki) for more information
+To get started or read more about this project, check [This Link](https://github.com/JoystickAndCursorKeys/B3Script/wiki) for more information
 
 To download click [Download the library](https://github.com/JoystickAndCursorKeys/B3Script/wiki/Download)
 
