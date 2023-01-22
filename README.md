@@ -10,7 +10,7 @@ B3Script stands for Basic Script for WWW (W3)
 
 Or if you prefer B3 Browser Basic :)
 
-Short: B3
+Short: B3 or B3Script
 
 ---
 
