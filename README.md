@@ -6,9 +6,9 @@ Plugin for embedding "Basic" as a scripting language into HTML
 
 ---
 
-B3Script stands for Basic Script for WWW (W3) 
+B3Script stands for Basically Browser Basic for WWW (W3) 
 
-Or if you prefer B3 Browser Basic :)
+Or if you prefer B3, B3 Script or  B3 Browser Basic :)
 
 Short: B3 or B3Script
 
