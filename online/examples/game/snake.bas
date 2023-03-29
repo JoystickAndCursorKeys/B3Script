@@ -1,7 +1,16 @@
 0 reset 
 10 SYNCH =20 : VOL = 0.5: DISPLAY 200
-15 CLS RESET :IMMEDIATE 1:VOLUME VOL : chvolume 0,1 : chvolume 1,.5
-20 SW =COLS ():SH =ROWS ():TAW =80:TAH =32:SBH = 4 : gameover = 0
+
+11 color 5,0: border 20: cls : flip = 0: count = 0
+12 locate INT(rows()/2)-2 : CENTER "This game is using keyboard only"
+13 locate INT(rows()/2)  : CENTER "In this dimension, There is no Mouse or Touchscreen"
+14 locate INT(rows()/2)+1 : CENTER "Press <<Space>> to start!"
+15 waitms 100
+16 count = count + 1: if count > 10 then count=0: flip=1-flip: border 20+(flip*6)
+17 getkey k$ : if k$ = "" then goto 15
+
+20 CLS RESET :IMMEDIATE 1:VOLUME VOL : chvolume 0,1 : chvolume 1,.5
+21 SW =COLS ():SH =ROWS ():TAW =80:TAH =32:SBH = 4 : gameover = 0
 22 if SW < TAW+2 OR SH < TAH + 2 THEN RESET:  COLOR 1,0,2 : CLS: PRINT: PRINT " TOO LOW RESOLUTION!! " : END
 30 DIM LIV$ ( 3) : DIM WALLH(3)
 40 DIM SCL ( 2):SCL ( 0)= 5:SCL ( 1)=11
@@ -40,11 +49,11 @@
 327 SCHR( idL ) = 413
 328 SCHR( idR ) = 412
 400 DIM modes$(4)
-401 modes$(0) = "Easy"
-402 modes$(1) = "Medium"
-403 modes$(2) = "Hard"
-404 modes$(3) = "Very Hard"
-405 mode = 1: modeMax = 3 : topscore = 0 
+401 modes$(0) = "Slowmotion"
+402 modes$(1) = "Easy"
+403 modes$(2) = "Medium"
+404 modes$(3) = "Hard"
+405 mode = 2: modeMax = 3 : topscore = 0 
 
 410 DIM StartSpeeds(4)
 411 StartSpeeds( 0 )  = 0.2
@@ -126,7 +135,7 @@
 2052 if gameover = 1 then  COLOR  2,0 : CENTER "Game  Over": PRINT
 2053 if gameover = 1 then  COLOR  11,0 : CENTER "Score: " ; int( SC ) ; " " ; modes$( prevMode) ; " L" ; int( Level )
 2054 if gameover = 1 then  COLOR  11,0 : CENTER "Top Score ";topscore :PRINT
-2060 LOCATE 27,0: COLOR  8,0:  CENTER "    '" ; modes$( mode);"'    "
+2060 LOCATE 27,0: COLOR  8,0:  CENTER "    '" ; modes$( mode);"' <<d>>    "
 2065 COLOR  8,0: CENTER "<<h>> for Help" 
 2070 COLOR  5,0:  CENTER "Press <<Space>> to Start" ;
 2100 GOSUB TITLEFX : WAITMS 50
