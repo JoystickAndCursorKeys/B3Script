@@ -25,3 +25,11 @@ Check here to for the [Main Website](https://joystickandcursorkeys.github.io/B3S
 Go here to [Run directly](https://joystickandcursorkeys.github.io/B3Script/online) in your Browser
 
 To read [The source code](https://github.com/JoystickAndCursorKeys/B3ScriptSource), click me!
+
+
+## License
+
+This project uses the [MIT License](LICENSE), with an additional request to explicitly mention and link back to this repository in derivative works.  
+See the [LICENSE](LICENSE) file for details.
+
+As of 2025-02-23, this project explicitly uses the MIT License with attribution and brand protection clauses. Any users who previously downloaded or forked this repository may use and redistribute under these same terms.
